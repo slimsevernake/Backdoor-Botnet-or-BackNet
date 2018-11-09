@@ -15,7 +15,7 @@ __Warning: Only use this software according to your current legislation. Misuse 
 
 BackNet is made of two main programs:
 
-- A Command aNd Control server, which is a Web interface to administer the agents
+- A Command aad Control server, which is a Web interface to administer the agents
 - An agent program, which is run on the compromised host, and ensures communication with the CNC
 
 The Web interface can be run on any server running Python. The agent can be compiled to native executables using **pyinstaller**.
