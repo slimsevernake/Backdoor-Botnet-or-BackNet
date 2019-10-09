@@ -137,4 +137,3 @@ Kills the agent.
 help
 This help.
 ```
-Cheers :)
