@@ -1,5 +1,7 @@
 # BackNet
 Backdoor+Botnet
+
+[![Build Status](https://travis-ci.com/kaiiyer/backnet.svg?branch=master)](https://travis-ci.com/kaiiyer/backnet)
 ```
  ____             _    _   _      _   
 | __ )  __ _  ___| | _| \ | | ___| |_ 
