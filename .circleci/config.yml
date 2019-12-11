@@ -17,7 +17,7 @@
       - image: circleci/python:3.6.1
      steps:
        - checkout
-       - run: python agent/agent.py
+       - run: python --version
        - run: sleep 15
  workflows:
    version: 2
