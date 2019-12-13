@@ -1,8 +1,16 @@
 # BackNet
 Backdoor+Botnet
 
+
+![Python](https://alibahaari.github.io/Badge/Python.png)  ![HTML](https://alibahaari.github.io/Badge/HTML.png)   ![JS](https://alibahaari.github.io/Badge/CSS.png)    ![CSS](https://alibahaari.github.io/Badge/JavaScript.png)
+
 [![Build Status](https://travis-ci.com/kaiiyer/backnet.svg?branch=master)](https://travis-ci.com/kaiiyer/backnet)
 [![CircleCI](https://circleci.com/gh/kaiiyer/backnet/tree/master.svg?style=svg)](https://circleci.com/gh/kaiiyer/backnet/tree/master)
+<a href="https://github.com/kaiiyer/backnet/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/kaiiyer/backnet"></a>
+<a href="https://github.com/kaiiyer/backnet/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/kaiiyer/backnet"></a>
+<a href="https://github.com/kaiiyer/backnet/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/kaiiyer/backnet"></a>
+<a href="https://github.com/kaiiyer/backnet/graphs/contributors" alt="Contributors">
+<img src="https://img.shields.io/github/contributors/kaiiyer/backnet" /></a>
 ```
  ____             _    _   _      _   
 | __ )  __ _  ___| | _| \ | | ___| |_ 
