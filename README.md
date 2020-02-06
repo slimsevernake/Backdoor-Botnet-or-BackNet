@@ -4,6 +4,7 @@ Backdoor+Botnet
 
 ![Python](https://alibahaari.github.io/Badge/Python.png)  ![HTML](https://alibahaari.github.io/Badge/HTML.png)   ![JS](https://alibahaari.github.io/Badge/CSS.png)    ![CSS](https://alibahaari.github.io/Badge/JavaScript.png)
 
+![Git Actions](https://github.com/kaiiyer/backnet/workflows/Git%20Actions/badge.svg)
 [![CircleCI](https://circleci.com/gh/kaiiyer/backnet/tree/master.svg?style=svg)](https://circleci.com/gh/kaiiyer/backnet/tree/master)
 <a href="https://github.com/kaiiyer/backnet/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/kaiiyer/backnet"></a>
 <a href="https://github.com/kaiiyer/backnet/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/kaiiyer/backnet"></a>
