@@ -1,4 +1,4 @@
-  name: Upgrade to Python 3
+  name: Git Actions
   on: [push]
   jobs:
     New_Job:
