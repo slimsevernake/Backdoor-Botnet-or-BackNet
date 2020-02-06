@@ -1,7 +1,7 @@
   name: Upgrade to Python 3
   on: [push]
   jobs:
-    New Job:
+    New_Job:
       runs-on: [ubuntu-latest]
       steps:
               - name: Initial Job
