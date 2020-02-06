@@ -1,3 +1,10 @@
   name: Upgrade to Python 3
-  uses: cclauss/Upgrade-to-Python3@0.1.0
   on: [push]
+  jobs:
+    New Job:
+      runs-on: [ubuntu-latest]
+      steps:
+              - name: Initial Job
+                continue-on-error: true
+                uses: cclauss/Upgrade-to-Python3@0.1.0
+                
