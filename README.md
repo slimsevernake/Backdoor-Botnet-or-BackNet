@@ -8,7 +8,6 @@ Backdoor+Botnet
 [![CircleCI](https://circleci.com/gh/kaiiyer/backnet/tree/master.svg?style=svg)](https://circleci.com/gh/kaiiyer/backnet/tree/master)
 <a href="https://github.com/kaiiyer/backnet/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/kaiiyer/backnet"></a>
 <a href="https://github.com/kaiiyer/backnet/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/kaiiyer/backnet"></a>
-<a href="https://github.com/kaiiyer/backnet/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/kaiiyer/backnet"></a>
 <a href="https://github.com/kaiiyer/backnet/graphs/contributors" alt="Contributors">
 <img src="https://img.shields.io/github/contributors/kaiiyer/backnet" /></a>
 ```
@@ -21,8 +20,6 @@ Backdoor+Botnet
 ```
 
 BackNet is a Python Remote Access Tool.
-
-__Warning: Only use this software according to your current legislation. Misuse of this software can raise legal and ethical issues which I don't support nor can be held responsible for.__
 
 BackNet is made of two main programs:
 
@@ -46,15 +43,9 @@ cd server
 ./ares.py initdb
 ```
 
-In order to compile Windows agents on Linux, setup wine (optional):
-
-```
-./wine_setup.sh
-```
-
 ## Server
 
-Run with the builtin (debug) server:
+Run with the built-in server:
 
 ```
 ./ares.py runserver -h 0.0.0.0 -p 8080 --threaded
@@ -66,7 +57,7 @@ Or run using gunicorn:
 gunicorn ares:app -b 0.0.0.0:8080 --threads 20
 ```
 
-The server should now be accessible on http://localhost:8080
+The server should start running on http://localhost:8080
 
 ## Agent
 
@@ -93,58 +84,9 @@ usage: builder.py [-h] -p PLATFORM --server SERVER -o OUTPUT
                   [--max_failed_connections MAX_FAILED_CONNECTIONS]
                   [--persistent]
 
-Builds an Ares agent.
-
-optional arguments:
-  -h, --help            show this help message and exit
-  -p PLATFORM, --platform PLATFORM
-                        Target platform (Windows, Linux).
-  --server SERVER       Address of the CnC server (e.g http://localhost:8080).
-  -o OUTPUT, --output OUTPUT
-                        Output file name.
-  --hello-interval HELLO_INTERVAL
-                        Delay (in seconds) between each request to the CnC.
-  --idle_time IDLE_TIME
-                        Inactivity time (in seconds) after which to go idle.
-                        In idle mode, the agent pulls commands less often
-                        (every <hello_interval> seconds).
-  --max_failed_connections MAX_FAILED_CONNECTIONS
-                        The agent will self destruct if no contact with the
-                        CnC can be made <max_failed_connections> times in a
-                        row.
-  --persistent          Automatically install the agent on first run.
-```
-
-### Supported agent commands
+Builds an agent.
 
 ```
-<any shell command>
-Executes the command in a shell and return its output.
+__Warning: Only use this software according to your current legislation. Misuse of this software can raise legal and ethical issues which I don't support nor can be held responsible for.__
 
-upload <local_file>
-Uploads <local_file> to server.
-
-download <url> <destination>
-Downloads a file through HTTP(S).
-
-zip <archive_name> <folder>
-Creates a zip archive of the folder.
-
-screenshot
-Takes a screenshot.
-
-python <command|file>
-Runs a Python command or local file.
-
-persist
-Installs the agent.
-
-clean
-Uninstalls the agent.
-
-exit
-Kills the agent.
-
-help
-This help.
-```
+Contributions are appreciated !
